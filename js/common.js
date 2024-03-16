@@ -22,11 +22,4 @@ let eduSlide = new Swiper(".eduSlide", {
   autoplay: {
     delay: 3000,
   },
-
-  // breakpoints: {
-  //   1200: {
-  //     slidesPerView: 5,
-  //     spaceBetween: 50,
-  //   },
-  // },
 });
