@@ -13,3 +13,20 @@ let mainSlide = new Swiper(".mainSlide", {
     },
   },
 });
+
+let eduSlide = new Swiper(".eduSlide", {
+  slidesPerView: "auto",
+  centeredSlides: true,
+  spaceBetween: 32,
+  loop: true,
+  autoplay: {
+    delay: 3000,
+  },
+
+  // breakpoints: {
+  //   1200: {
+  //     slidesPerView: 5,
+  //     spaceBetween: 50,
+  //   },
+  // },
+});
